@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-class exampel</title>
+    <style>
+
+    
+
+      h1::before{
+        content:'😊';
+       }
+
+       p::first-letter{
+        color: red;
+        font-weight:bold;
+       }
+
+       p::first-line{
+        color:green;
+        font-weight:bold;
+       }
+
+       ::selection{
+        background-color: black;
+        color:blue;
+       }
+
+       h1{
+        border:5px    
+       }
+
+
+    </style> 
+</head>
+<body>
+    <ul>
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+        <li>Item4</li>
+        <li>Item5</li>
+        <li>Item6</li>
+    </ul>
+
+    <h1>welcome to the site</h1>
+    <h2></h2>
+    
+</body>
+</html>
